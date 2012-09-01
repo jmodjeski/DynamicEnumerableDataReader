@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicEnumerableDataReader", "DynamicEnumerableDataReader\DynamicEnumerableDataReader.csproj", "{0CEBC6E9-FEA4-4958-864E-8F3D23EB33D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicEnumerableDataReader.Tests", "DynamicEnumerableDataReader.Tests\DynamicEnumerableDataReader.Tests.csproj", "{7F530D73-D12A-4723-B212-01838B588317}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D7EE2045-FFBF-4B40-B6D8-7E4226794586}"
+	ProjectSection(SolutionItems) = preProject
+		DynamicEnumerableDataReader.vsmdi = DynamicEnumerableDataReader.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DynamicEnumerableDataReader.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CEBC6E9-FEA4-4958-864E-8F3D23EB33D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEBC6E9-FEA4-4958-864E-8F3D23EB33D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CEBC6E9-FEA4-4958-864E-8F3D23EB33D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CEBC6E9-FEA4-4958-864E-8F3D23EB33D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F530D73-D12A-4723-B212-01838B588317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F530D73-D12A-4723-B212-01838B588317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F530D73-D12A-4723-B212-01838B588317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F530D73-D12A-4723-B212-01838B588317}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
